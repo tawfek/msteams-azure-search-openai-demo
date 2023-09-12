@@ -3,24 +3,24 @@
     "manifestVersion": "1.16",
     "version": "1.0.0",
     "id": "${{TEAMS_APP_ID}}",
-    "packageName": "com.microsoft.teams.demo.openai.search.azure",
+    "packageName": "com.lightring.Laila",
     "developer": {
         "name": "Microsoft",
-        "websiteUrl": "https://github.com/Azure-Samples/azure-search-openai-demo",
-        "privacyUrl": "https://github.com/Azure-Samples/azure-search-openai-demo",
-        "termsOfUseUrl": "https://github.com/Azure-Samples/azure-search-openai-demo"
+        "websiteUrl": "https://lightring.ai",
+        "privacyUrl": "https://lightring.ai/privacy-policy",
+        "termsOfUseUrl": "https://lightring.ai/privacy-policy/"
     },
     "icons": {
         "color": "color.png",
         "outline": "outline.png"
     },
     "name": {
-        "short": "Chat with your data",
-        "full": "Chat with your data using Azure OpenAI + Cognitive Search"
+        "short": "Laila - AI Assistant",
+        "full": "Virtual Assistant customised for your business"
     },
     "description": {
-        "short": "ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search",
-        "full": "ChatGPT + Enterprise data with Azure OpenAI and Cognitive Search"
+        "short": "Ask Laila to help you with your business data",
+        "full": "Laila is a virtual assistant that helps you with your business data. You can ask Laila about any thing in any language."
     },
     "accentColor": "#FFFFFF",
     "bots": [
@@ -39,7 +39,7 @@
                     "commands": [
                         {
                             "title": "New chat",
-                            "description": "Start a new chat with your data"
+                            "description": "Start a new chat"
                         }
                     ]
                 }
